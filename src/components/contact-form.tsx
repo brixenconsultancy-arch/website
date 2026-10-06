@@ -2,14 +2,14 @@
 
 import Script from "next/script";
 
-export default function ContactForm() {
+export function ContactForm() {
   return (
     <>
       <iframe
         src="https://api.leadconnectorhq.com/widget/form/eDxv2YrBzpW83pK0YEPO"
         style={{
           width: "100%",
-          height: "100%",
+          height: "800px",
           border: "none",
           borderRadius: "8px",
         }}
